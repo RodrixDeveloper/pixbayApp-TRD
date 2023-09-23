@@ -1,0 +1,17 @@
+<div class="jumbotron mt-5">
+    <form (ngSubmit)="buscarImagenes()">
+        <div class="row d-flex align-items-center">
+            <div class="col-lg-8">
+                <div class="form-group">
+                    <input class="form-control form-control-lg" [(ngModel)]="nombreImagen" name="imagen" type="text" placeholder="Buscar imagen..">
+                </div>
+            </div>
+            <div class="col-lg-4 mediaQuery">
+                <div class="d-grid gap-2">
+                    <button type="submit" class="btn btn-primary">Buscar</button>
+                </div>
+            </div>
+        </div>
+
+    </form>
+</div>
